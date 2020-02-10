@@ -83,3 +83,13 @@
         $('#danaContent').slideDown("slow")
     })
 </script>
+<script>
+    $('.edit').click(function() {
+        let __nama = $(this).attr("__nama")
+        let __action = $(this).attr("__action")
+
+        $('#formCreate').attr("action", __action)
+        $('#namaProduk').html(__nama)
+        $('#openFormCreate').click()
+    })
+</script>

@@ -56,7 +56,7 @@
     </div>
 </div>
 
-<button id="openFormCreate" data-toggle="modal" data-target="#modalCreate"></button>
+<button id="openFormCreate" data-toggle="modal" data-target="#modalCreate" hidden></button>
 <div class="modal fade" id="modalCreate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog confirm" role="document">
         <div class="modal-content">
