@@ -3,7 +3,7 @@
 <div class="col-12">
     <div class="card">
         <div class="card-header">
-            <h3>Tambah Pengguna</h3>
+            <h3>Atur Pengguna</h3>
         </div>
         <form action="{{route('pengguna.update', $pengguna->id)}}" method="POST" enctype="multipart/form-data" class="needs-validation">
             @csrf
@@ -51,7 +51,7 @@
                 </div>
                 <div class="form-group">
                     <label for="alamat">Alamat</label>
-                    <textarea class="form-control" rows="5" name="alamat" id="alamat">{!! $pengguna->alamat !!}</textarea>
+                    <textarea class="form-control" rows="5" name="alamat" id="alamat">{{ $pengguna->alamat }}</textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>

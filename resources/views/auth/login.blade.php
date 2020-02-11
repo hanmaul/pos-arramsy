@@ -14,10 +14,10 @@
                         
                         <div class="px-3">
                             <div class="media">
-                                <a href="#" class="logo logo-admin"><img src="vertical/assets/images/logo-sm.png" height="55" alt="logo" class="my-3"></a>
+                                <a href="#" class="logo logo-admin"><img src="{{asset('img/arramsyflorist.png')}}" height="55" alt="logo" class="my-3"></a>
                                 <div class="media-body ml-3 align-self-center">                                                                                                                       
-                                    <h4 class="mt-0 mb-1">Login on ArramsyPOS</h4>
-                                    <p class="text-muted mb-0">Sign in to continue to Frogetor.</p>
+                                    <h4 class="mt-0 mb-1">Arramsy Florist</h4>
+                                    <p class="text-muted mb-0">Masuk ke halaman</p>
                                 </div>
                             </div>                            
                             
@@ -29,17 +29,17 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1"><i class="mdi mdi-account-outline font-16"></i></span>
                                         </div>
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Masukkan email">
                                     </div>                                    
                                 </div>
     
                                 <div class="form-group">
-                                    <label for="userpassword">Password</label>
+                                    <label for="userpassword">Kata Sandi</label>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon2"><i class="mdi mdi-key font-16"></i></span>
                                         </div>
-                                        <input type="password" name="password" class="form-control" id="password" placeholder="Enter password">
+                                        <input type="password" name="password" class="form-control" id="password" placeholder="Masukkan Kata Sandi">
                                     </div>                                
                                 </div>
                                 <div class="form-group mb-0 row">
@@ -55,10 +55,9 @@
             <div class="col-lg-9 p-0 d-flex justify-content-center">
                 <div class="accountbg d-flex align-items-center"> 
                     <div class="account-title text-white text-center">
-                        <img src="vertical/assets/images/logo-sm.png" alt="" class="thumb-sm">
-                        <h4 class="mt-3">ArramsyPOS</h4>
+                        <h4 class="mt-3"><i>Arramsy Florist</i></h4>
                         <div class="border w-25 mx-auto border-primary"></div>
-                        <h1 class="">Let's Get Started</h1>
+                        <h2 class=""><b>Selamat Datang</b></h2>
                     </div>
                 </div>
             </div>

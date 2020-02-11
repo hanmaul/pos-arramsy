@@ -34,7 +34,7 @@
                                 <td>{{$loop->iteration}}</td>
                                 <td>
                                     <div class="d-flex flex-column justify-content-center">
-                                        <img src="data:image/png;base64,{{DNS1D::getBarcodePNG($q->barcode, 'C39')}}" height="20" width="100">
+                                        <img src="data:image/png;base64,{{DNS1D::getBarcodePNG($q->barcode, 'C39')}}" height="40" width="180">
                                         <span class="text-barcode">{{ $q->barcode }}</span>
                                     </div>
                                 </td>

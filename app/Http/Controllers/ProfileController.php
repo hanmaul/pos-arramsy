@@ -69,7 +69,7 @@ class ProfileController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-    {
+    {   
         $d = User::find($id);
         $d->name = $request->input("name");
         $d->alamat = $request->input("alamat");
@@ -89,7 +89,7 @@ class ProfileController extends Controller
         }
 
         $d->save();
-
+        
         return redirect()->route('profile')->with('success', 'barhasil ubah data');
     }
 
